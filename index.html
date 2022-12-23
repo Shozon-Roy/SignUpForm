@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <style>
+      html, body {
+      background-image: linear-gradient(90deg, #ff512f, #dd2476);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      }
+      body, div, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px;
+      }
+      body {
+      background: url("/uploads/media/default/0001/01/49bff73f282c2c21f3341f1fe457fe35337b1792.jpeg") no-repeat center;
+      background-size:cover;
+      }
+      h1 {
+      margin: 0 0 10px 0;
+      font-weight: 400;
+      }
+      .main-block {
+      display: flex;
+      width: 100%;
+      padding: 10px 0; 
+      border-radius: 5px;
+      box-shadow: 1px 1px 8px 0px #666; 
+      background: #fff;
+      }
+      .block-item {
+      width: 80%;
+      padding: 20px; 
+      }
+      .block-item.right {
+      border-left: 1px solid #aaa;
+      width: 30%;
+      }
+      i {
+      width: 60px;
+      font-size: 20px;
+      }
+       .btn {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 40px;
+      margin: 10px 0;
+      outline: none;
+      border: 0;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px #666;
+      background: #e8e8e8;
+      color: #fff;
+      cursor: pointer;
+      }
+      .btn2{
+      align-items: center;
+      width: 100px;
+      height: 32px;
+      outline: none;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px #666;
+      background: 2px solid transparent ;
+      color: black ;
+      font-weight: 500;
+      border: 0px;
+      cursor: pointer;
+      }
+     
+      .btn3{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 40px;
+      margin: 10px 0;
+      outline: none;
+      border: 0;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px #666;
+      background: 2px solid transparent ;
+      font-weight: 500;
+      color: red;
+      cursor: pointer;
+      }
+      .btn:hover {
+      transform: scale(.07);
+      }
+      .btn span {
+      font-weight:500;
+      }
+      .facebook {
+      background: #3a589e;
+      }
+      .twitter {
+      background: #429cd6;
+      }
+      .google{
+      background: #d34836;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-block">
+      <div class="block-item left">
+        
+        <input type="text" name="text" id="" class="btn3" placeholder="Username or email " />
+       
+       <input type="Password" name="pass" id="pass" class="btn3" placeholder="Password " />
+    
+    <input type="Submit" name="" id="reset" class="btn2" placeholder="Log In" />
+       
+      </div>
+      <div class="block-item right">
+        <button class="btn facebook" data-provider="facebook"><i class="fab fa-facebook-f"></i><span>Facebook</span></button>
+        <button class="btn twitter" data-provider="twitter"><i class="fab fa-twitter"></i><span>Twitter</span></button>
+        <button class="btn google" data-provider="google"><i class="fab fa-google"></i><span>Google</span></button>
+      </div>
+    </div>
+    
+    
+    <!-- removing credit couldn't make you a professional programer
+                          ©shozon roy-->
+    
+  </body>
+</html>
